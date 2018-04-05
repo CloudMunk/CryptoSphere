@@ -33,7 +33,7 @@ class NavBar extends Component {
                                 </Link>
                             </NavItem>
                             <NavDropdown title="More" id="basic-nav-dropdown">
-                             <Menu.Item as={Nav} to="/education" name="Education" />
+                             
                                 <MenuItem >Members</MenuItem>
                                 <MenuItem >Insider</MenuItem>
                                 <MenuItem divider />
