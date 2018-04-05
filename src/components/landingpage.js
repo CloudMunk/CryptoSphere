@@ -21,14 +21,8 @@ class Landingpage extends Component {
 
                 </div>
                 </div>
-                <Parallax
-                    blur={10}
-                    bgImage={require('../Images/background1.jpg')}
-                    bgImageAlt="the cat"
-                    strength={200}
-                    >
                  <div className="parallax"><img src="https://i.imgur.com/cCIUCu0.jpg" alt="Unsplashed background img 1" /></div>
-                </Parallax>
+
             </div>
 
 
