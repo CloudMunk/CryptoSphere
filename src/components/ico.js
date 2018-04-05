@@ -4,7 +4,7 @@ class ICO extends Component {
 	render () {
 		return (
          <div>
-             <p>This is the ICO page! WUHUUU</p>
+             <p>This is the ICO page! </p>
          </div>
 		)
 	}

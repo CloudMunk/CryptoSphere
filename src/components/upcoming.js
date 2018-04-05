@@ -4,7 +4,7 @@ class Upcoming extends Component {
 	render () {
 		return (
          <div>
-           <p> This is the damn upcoming section</p>
+           <p> Upcoming section</p>
 
          </div>
 		)

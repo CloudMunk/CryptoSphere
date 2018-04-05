@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, NavItem, NavDropdown, MenuItem, Nav, } from 'react-bootstrap';
-import { Link, Route } from "react-router-dom";
+import { Navbar, NavItem, NavDropdown, MenuItem, Nav, Menu } from 'react-bootstrap';
+import { Link, Route, NavLink } from "react-router-dom";
 import Upcoming from './upcoming';
 import Landingpage from './landingpage';
 import ICO from './ico';
@@ -33,15 +33,11 @@ class NavBar extends Component {
                                 </Link>
                             </NavItem>
                             <NavDropdown title="More" id="basic-nav-dropdown">
-                            <MenuItem>
-                               <Link to="/education">
-                                 Education
-                               </Link>
-                            </MenuItem>
-                            <MenuItem >Members</MenuItem>
-                            <MenuItem >Insider</MenuItem>
-                            <MenuItem divider />
-                            <MenuItem >Become A Member</MenuItem>
+                             <Menu.Item as={Nav} to="/education" name="Education" />
+                                <MenuItem >Members</MenuItem>
+                                <MenuItem >Insider</MenuItem>
+                                <MenuItem divider />
+                                <MenuItem >Become A Member</MenuItem>
                             </NavDropdown>
                         </Nav>
                     <Nav pullRight>

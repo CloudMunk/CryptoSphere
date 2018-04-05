@@ -69,8 +69,6 @@ class Landingpage extends Component {
 
                 </div>
             </div>
-
-
             <div className="parallax-container valign-wrapper">
                 <div className="section no-pad-bot">
                 <div className="container">
@@ -81,7 +79,6 @@ class Landingpage extends Component {
                 </div>
                 <div className="parallax"><img src="https://i.imgur.com/pzaPD79.jpg" alt="Unsplashed background img 2" /></div>
             </div>
-
             <div className="container">
                 <div className="section">
 
