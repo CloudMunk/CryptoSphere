@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavItem, NavDropdown, MenuItem, Nav, Menu } from 'react-bootstrap';
+import { Navbar, NavItem, NavDropdown, MenuItem, Nav } from 'react-bootstrap';
 import { Link, Route, NavLink } from "react-router-dom";
 import Upcoming from './upcoming';
 import Landingpage from './landingpage';
