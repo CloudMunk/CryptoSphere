@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav } from 'react-bootstrap';
-import { Link, Route, NavLink } from "react-router-dom";
-import Upcoming from './upcoming';
+import { Link, Route } from "react-router-dom";
+import News from './news';
 import Landingpage from './landingpage';
 import ICO from './ico';
 import Education from './education';
@@ -23,8 +23,8 @@ class NavBar extends Component {
                     <Navbar.Collapse>
                         <Nav>
                             <NavItem>
-                                <Link to="/upcoming">
-                                      Upcoming
+                                <Link to="/news">
+                                      News
                                 </Link>
                             </NavItem>
                             <NavItem>
@@ -32,12 +32,26 @@ class NavBar extends Component {
                                   ICO's
                                 </Link>
                             </NavItem>
-                            <NavDropdown title="More" id="basic-nav-dropdown">
+                            <NavDropdown title="Inside Blockchain" id="basic-nav-dropdown">
                              
-                                <MenuItem >Members</MenuItem>
-                                <MenuItem >Insider</MenuItem>
+                                <MenuItem >Dapps</MenuItem>
+                                <MenuItem >Heard on the Web</MenuItem>
                                 <MenuItem divider />
-                                <MenuItem >Become A Member</MenuItem>
+                                <MenuItem >Get Exclusive Access</MenuItem>
+                            </NavDropdown>
+                            <NavDropdown title="Guides" id="basic-nav-dropdown">
+                             
+                                <MenuItem >Video tutorials</MenuItem>
+                                <MenuItem >Educational material</MenuItem>
+                                <MenuItem divider />
+                                <MenuItem >Blogs</MenuItem>
+                            </NavDropdown>
+                            <NavDropdown title="Exchanges" id="basic-nav-dropdown">
+                             
+                                <MenuItem >Centralized</MenuItem>
+                                <MenuItem >Decentralized</MenuItem>
+                                <MenuItem divider />
+                                <MenuItem >Current ratings</MenuItem>
                             </NavDropdown>
                         </Nav>
                     <Nav pullRight>
@@ -51,7 +65,7 @@ class NavBar extends Component {
                     </Navbar.Collapse>
             </Navbar>
             <Route path="/" exact component={Landingpage} />
-            <Route path="/upcoming" component={Upcoming} />
+            <Route path="/news" component={News} />
             <Route path="/ico" component={ICO} />
             <Route path="/education" component={Education} />
             

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
+import ControlledCarousel from './carousel';
 
 
 class Landingpage extends Component {
@@ -11,6 +12,7 @@ class Landingpage extends Component {
                 <div className="container">
                     
                     <h1 className="header center teal-text text-lighten-2">Crypto Sphere</h1>
+                    <ControlledCarousel />
                     <div className="row center">
                     <h5 className="header col s12 light">A modern take on a Multi-Platform Crypto webpage</h5>
                     </div>
