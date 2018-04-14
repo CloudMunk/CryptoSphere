@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav } from 'react-bootstrap';
 import { Link, Route } from "react-router-dom";
-import News from './news';
-import Landingpage from './landingpage';
-import ICO from './ico';
-import Education from './education';
+import News from '../components/Pages/news';
+import Landingpage from '../components/Pages/landingpage';
+import ICO from '../components/Pages/ico';
+
 
 
 class NavBar extends Component {
@@ -28,13 +28,13 @@ class NavBar extends Component {
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link to="ico">
+                                <Link to="/ico">
                                   ICO's
                                 </Link>
                             </NavItem>
                             <NavDropdown title="Inside Blockchain" id="basic-nav-dropdown">
                              
-                                <MenuItem >Dapps</MenuItem>
+                                <MenuItem>Dapps</MenuItem>
                                 <MenuItem >Heard on the Web</MenuItem>
                                 <MenuItem divider />
                                 <MenuItem >Get Exclusive Access</MenuItem>
@@ -67,7 +67,7 @@ class NavBar extends Component {
             <Route path="/" exact component={Landingpage} />
             <Route path="/news" component={News} />
             <Route path="/ico" component={ICO} />
-            <Route path="/education" component={Education} />
+            
             
         </div>
         ) 

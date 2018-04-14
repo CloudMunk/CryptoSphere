@@ -4,7 +4,7 @@ class Education extends Component {
 	render () {
 		return (
          <div>
-             <p>This is the Education page!</p>
+             <p>This is the Education page testing!</p>
          </div>
 		)
 	}

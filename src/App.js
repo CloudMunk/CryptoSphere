@@ -8,6 +8,7 @@ import { Image } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
 
@@ -17,7 +18,14 @@ class App extends Component {
                  
                   src="https://i.imgur.com/I4xPuBS.jpg">
                 </Image>
-                <h1>The best place for everything Crypto</h1>
+                <h5 style={{ 
+                       display: 'flex', 
+                       justifyContent: 'center', 
+                       color: '#a2b9bc', 
+                       fonFamily: 'Great Vibes', 
+                       fontWeight: 'bold'}}
+                       >  Everything Crypto --- In one place 
+                       </h5>
       </div>
         <BrowserRouter>
             <div>

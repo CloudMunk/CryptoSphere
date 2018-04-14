@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import NewsCar from '../containers/newscar';
-import { Container, Row, Col } from 'reactstrap';
+import NewsCar from '../../containers/newscar';
+import { Container, Row, Col, Card, Button, CardImg, CardTitle, CardText,
+    CardSubtitle, CardBody } from 'reactstrap';
 
 
 class Landingpage extends Component {
@@ -8,18 +9,19 @@ class Landingpage extends Component {
 		return (
          <div>
              <Container>
-                 <Row>
+                <Row>
                     <NewsCar />
                 </Row>
+             </Container>
                 <Row>
                     <div id="index-banner" className="parallax-container">
                         <div className="section no-pad-bot">
                         <div className="container">
                             
                             <h1 className="header center teal-text text-lighten-2">Crypto Sphere</h1>
-                            
+
                             <div className="row center">
-                            <h5 className="header col s12 light">A modern take on a Multi-Platform Crypto webpage</h5>
+                            <h5 className="header col s12 light">A brand new All-in-one crypto platform</h5>
                             </div>
                             <div className="row center">
                             <a href="/" id="download-button" className="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
@@ -159,7 +161,6 @@ class Landingpage extends Component {
                         </div>
                         </div>
                     </footer>
-             </Container>
         </div>
 		)
 	}
