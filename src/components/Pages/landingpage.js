@@ -36,10 +36,45 @@ class Landingpage extends Component {
                     </div>
                 </Row>
                 <Row>
+                <Col sm="4">
+                    <Card>
+                        <CardImg top width="100%" height="303px" src="https://i.imgur.com/GU6G3CS.jpg" alt="Card image cap" />
+                            <CardBody>
+                            <CardTitle>Blockchain Technology hits mainstream!</CardTitle>
+                            <CardSubtitle>With all new killer DApps!</CardSubtitle>
+                            <CardText>A new dawn is upon us, where efficiency and trust go hand in hand, and work seamlessly.</CardText>
+                            <Button>Read more</Button>
+                            </CardBody>
+                    </Card>
+                </Col>
+                <Col sm="4">
+                    <Card>
+                        <CardImg top width="100%" height="350px" src="https://i.imgur.com/MbnyY0f.jpg" alt="Card image cap" />
+                            <CardBody>
+                            <CardTitle>Experience a whole new paradigm</CardTitle>
+                            <CardSubtitle>With all new killer DApps!</CardSubtitle>
+                            <CardText>Life the way we know it is about to change, and fast!</CardText>
+                            <Button>Read more</Button>
+                            </CardBody>
+                    </Card>
+                </Col>
+                <Col sm="4">
+                    <Card>
+                        <CardImg top width="100%" height="350px" src="https://i.imgur.com/xQJaA6R.jpg" alt="Card image cap" />
+                            <CardBody>
+                            <CardTitle>The Third Moonlanding</CardTitle>
+                            <CardSubtitle>With all new killer DApps!</CardSubtitle>
+                            <CardText>This ICO is going to blow you mind!</CardText>
+                            <Button>Read more</Button>
+                            </CardBody>
+                    </Card>
+                </Col>
+                </Row>
+                <Row>
                     <div className="container">
                         <div className="section">
 
-                    
+                          
                         <div className="row">
                             <div className="col s12 m4">
                             <div className="icon-block">
